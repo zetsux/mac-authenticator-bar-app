@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:AuthenticatorBar}",
+      "name": "Debug AuthenticatorBar",
+      "target": "AuthenticatorBar",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug AuthenticatorBar"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:AuthenticatorBar}",
+      "name": "Release AuthenticatorBar",
+      "target": "AuthenticatorBar",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release AuthenticatorBar"
+    }
+  ]
+}
